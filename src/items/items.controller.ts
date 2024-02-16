@@ -1,6 +1,6 @@
 import { Controller, Get, Param, Post, Body, Put, Delete, UseGuards } from '@nestjs/common';
 import { ItemsService } from './items.service';
-import { Item } from './item';
+import { Item } from '../entitiy/item';
 import { AwsAuthGuard } from 'src/auth/aws-auth.guard';
 import { Roles } from 'src/auth/roles.decorator';
 
